@@ -1,5 +1,5 @@
 <h2>{{mediaItem.name}}</h2>
-<div>{{mediaItem.watchedOn}}</div>
+<div *ng-if="mediaItem.watchedOn">{{mediaItem.watchedOn}}</div>
 <div>{{mediaItem.category}}</div>
 <div>{{mediaItem.year}}</div>
 <div class="tools">
